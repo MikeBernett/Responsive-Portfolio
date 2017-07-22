@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!-- saved from url=(0208)http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css -->
+<html class="turbolinks-progress-bar" lang="en"><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution · master · GW-Coding-Boot-Camp / 07-17-2017-GW-Arlington-Class-Repository-FSF-FT" property="og:title">
+<meta content="GitLab Community Edition" property="og:description">
+<meta content="http://gw.bootcampcontent.com/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution · master · GW-Coding-Boot-Camp / 07-17-2017-GW-Arlington-Class-Repository-FSF-FT" property="twitter:title">
+<meta content="GitLab Community Edition" property="twitter:description">
+<meta content="http://gw.bootcampcontent.com/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css · master · GW-Coding-Boot-Camp / 07-17-2017-GW-Arlington-Class-Repository-FSF-FT · GitLab</title>
+<meta content="GitLab Community Edition" name="description">
+<link rel="shortcut icon" type="image/x-icon" href="http://gw.bootcampcontent.com/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico">
+<link rel="stylesheet" media="all" href="./reset_files/application-d165f12070137b3b436a61f947940b2ced66ac0acb1c4b61ee70daf598ef42ae.css">
+<link rel="stylesheet" media="print" href="./reset_files/print-68eed6d8135d858318821e790e25da27b2b4b9b8dbb1993fa6765d8e2e3e16ee.css">
+<script src="./reset_files/application-025f6d7648c857a731cbfd24fefde37e42f1613525a8d15b3b2a591e7df17620.js.download"></script><style>html.turbolinks-progress-bar::before {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background-color: #0076ff;
+  height: 3px;
+  opacity: 0.99;
+  width: 0%;
+  transition: width 0ms ease-out, opacity 0ms ease-in;
+  transform: translate3d(0,0,0);
+}</style>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="9m9Z2IK26hsRu67wsSTxZSf09EbJUT00T5ZAgh5tTT0h2C0AUCRrWfBDI9XygiPR/MNiQ5XDz9LVE7BpanWggA==">
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="http://gw.bootcampcontent.com/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png">
+<link rel="apple-touch-icon" type="image/x-icon" href="http://gw.bootcampcontent.com/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76">
+<link rel="apple-touch-icon" type="image/x-icon" href="http://gw.bootcampcontent.com/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120">
+<link rel="apple-touch-icon" type="image/x-icon" href="http://gw.bootcampcontent.com/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152">
+<link color="rgb(226, 67, 41)" href="http://gw.bootcampcontent.com/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+<link rel="alternate" type="application/atom+xml" title="07-17-2017-GW-Arlington-Class-Repository-FSF-FT:master commits" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commits/master.atom?private_token=xcQbMH8XroKfhsYsuAfq">
+
+
+
+
+<style>
+  [data-user-is] {
+    display: none !important;
+  }
+  
+  [data-user-is="182"] {
+    display: block !important;
+  }
+  
+  [data-user-is="182"][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not] {
+    display: block !important;
+  }
+  
+  [data-user-is-not][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not="182"] {
+    display: none !important;
+  }
+</style>
+
+<script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/popup.js" async=""></script><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/tat_popup.js" async=""></script></head>
+
+<body class="ui_charcoal" data-group="" data-page="projects:tree:show" data-project="07-17-2017-GW-Arlington-Class-Repository-FSF-FT">
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v3";gon.default_avatar_url="http:\/\/gw.bootcampcontent.com\/assets\/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.relative_url_root="";gon.shortcuts_path="\/help\/shortcuts";gon.user_color_scheme="white";gon.award_menu_url="\/emojis";gon.current_user_id=182;
+//]]>
+</script>
+<script>
+  window.project_uploads_path = "/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/uploads";
+  window.preview_markdown_path = "/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/preview_markdown";
+</script>
+
+<header class="navbar navbar-fixed-top navbar-gitlab with-horizontal-nav">
+<div class="container-fluid">
+<div class="header-content">
+<button aria-label="Toggle global navigation" class="side-nav-toggle" type="button">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</button>
+<button class="navbar-toggle" type="button">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-ellipsis-v"></i>
+</button>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="hidden-sm hidden-xs">
+<div class="has-location-badge search search-form">
+<form class="navbar-form" action="http://gw.bootcampcontent.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><div class="search-input-container">
+<div class="location-badge">This project</div>
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search" class="search-input dropdown-menu-toggle js-search-dashboard-options disabled" spellcheck="false" tabindex="1" autocomplete="off" data-toggle="dropdown" data-issues-path="http://gw.bootcampcontent.com/dashboard/issues" data-mr-path="http://gw.bootcampcontent.com/dashboard/merge_requests" value="">
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li>
+<a class="is-focused dropdown-menu-empty-link">
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+<i class="search-icon"></i>
+<i class="clear-icon js-clear-input"></i>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options">
+<input type="hidden" name="project_id" id="search_project_id" value="73" class="js-search-project-options" data-project-path="07-17-2017-GW-Arlington-Class-Repository-FSF-FT" data-name="07-17-2017-GW-Arlington-Class-Repository-FSF-FT" data-issues-path="/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/issues" data-mr-path="/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/merge_requests">
+<input type="hidden" name="search_code" id="search_code" value="true">
+<input type="hidden" name="repository_ref" id="repository_ref" value="master">
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="73" data-autocomplete-project-ref="master"></div>
+</form></div>
+
+</li>
+<li class="visible-sm visible-xs">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="http://gw.bootcampcontent.com/search"><i class="fa fa-search"></i>
+</a></li>
+<li>
+<a title="Todos" aria-label="Todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="http://gw.bootcampcontent.com/dashboard/todos"><i class="fa fa-bell fa-fw"></i>
+<span class="badge hidden todos-pending-count">
+0
+</span>
+</a></li>
+<li>
+<a title="New project" aria-label="New project" data-toggle="tooltip" data-placement="bottom" data-container="body" href="http://gw.bootcampcontent.com/projects/new"><i class="fa fa-plus fa-fw"></i>
+</a></li>
+<li class="header-user dropdown">
+<a class="header-user-dropdown-toggle" data-toggle="dropdown" href="http://gw.bootcampcontent.com/mikebernett"><img width="26" height="26" class="header-user-avatar" src="./reset_files/avatar.png" alt="Avatar">
+<i class="fa fa-caret-down"></i>
+</a><div class="dropdown-menu-nav dropdown-menu-align-right">
+<ul>
+<li>
+<a class="profile-link" aria-label="Profile" data-user="mikebernett" href="http://gw.bootcampcontent.com/mikebernett">Profile</a>
+</li>
+<li>
+<a aria-label="Profile Settings" href="http://gw.bootcampcontent.com/profile">Profile Settings</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="sign-out-link" aria-label="Sign out" rel="nofollow" data-method="delete" href="http://gw.bootcampcontent.com/users/sign_out">Sign out</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<h1 class="title"><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp">GW-Coding-Boot-Camp</a> / <a class="project-item-select-holder" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT">07-17-2017-GW-Arlington-Class-Repository-FSF-FT</a><button name="button" type="button" class="dropdown-toggle-caret js-projects-dropdown-toggle" aria-label="Toggle switch project dropdown" data-target=".js-dropdown-menu-projects" data-toggle="dropdown"><i class="fa fa-chevron-down"></i></button></h1>
+<div class="header-logo">
+<a class="home" title="Dashboard" id="logo" href="http://gw.bootcampcontent.com/"><svg width="36" height="36" class="tanuki-logo">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"></path>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"></path>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"></path>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"></path>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"></path>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"></path>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"></path>
+</svg>
+
+</a></div>
+<div class="js-dropdown-menu-projects">
+<div class="dropdown-menu dropdown-select dropdown-menu-projects">
+<div class="dropdown-title"><span>Go to a project</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search your projects" autocomplete="off" value=""><i class="fa fa-search dropdown-input-search"></i><i role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+
+</div>
+</div>
+</header>
+
+<script>
+  var findFileURL = "/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/find_file/master";
+</script>
+
+<div class="page-with-sidebar">
+<div class="sidebar-wrapper nicescroll">
+<div class="sidebar-action-buttons">
+<div class="nav-header-btn toggle-nav-collapse" title="Open/Close">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</div>
+<div class="nav-header-btn pin-nav-btn has-tooltip  js-nav-pin" data-container="body" data-placement="right" title="" data-original-title="Pin navigation">
+<span class="sr-only">Toggle navigation pinning</span>
+<i class="fa fa-fw fa-thumb-tack"></i>
+</div>
+</div>
+<ul class="nav nav-sidebar" style="overflow: hidden; outline: none;" tabindex="3">
+<li class="active home"><a title="Projects" class="dashboard-shortcuts-projects" href="http://gw.bootcampcontent.com/dashboard/projects"><span>
+Projects
+</span>
+</a></li><li class=""><a title="Todos" href="http://gw.bootcampcontent.com/dashboard/todos"><span>
+Todos
+<span class="count">0</span>
+</span>
+</a></li><li class=""><a class="dashboard-shortcuts-activity" title="Activity" href="http://gw.bootcampcontent.com/dashboard/activity"><span>
+Activity
+</span>
+</a></li><li class=""><a title="Groups" href="http://gw.bootcampcontent.com/dashboard/groups"><span>
+Groups
+</span>
+</a></li><li class=""><a title="Milestones" href="http://gw.bootcampcontent.com/dashboard/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Issues" class="dashboard-shortcuts-issues" href="http://gw.bootcampcontent.com/dashboard/issues?assignee_id=182"><span>
+Issues
+<span class="count">0</span>
+</span>
+</a></li><li class=""><a title="Merge Requests" class="dashboard-shortcuts-merge_requests" href="http://gw.bootcampcontent.com/dashboard/merge_requests?assignee_id=182"><span>
+Merge Requests
+<span class="count">0</span>
+</span>
+</a></li><li class=""><a title="Snippets" href="http://gw.bootcampcontent.com/dashboard/snippets"><span>
+Snippets
+</span>
+</a></li><li class=""><a title="Help" href="http://gw.bootcampcontent.com/help"><span>
+Help
+</span>
+</a></li><li class=""><a title="Profile Settings" data-placement="bottom" href="http://gw.bootcampcontent.com/profile"><span>
+Profile Settings
+</span>
+</a></li></ul>
+
+<div id="ascrail2003" class="nicescroll-rails nicescroll-rails-vr" style="width: 7px; z-index: 1000; cursor: default; position: absolute; top: 50px; left: 213px; height: 622px; touch-action: none; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px; touch-action: none;"></div></div><div id="ascrail2003-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 7px; z-index: 1000; top: 665px; left: 0px; position: absolute; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 5px; width: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div></div>
+<div class="layout-nav">
+<div class="container-fluid">
+<div class="controls">
+<div class="dropdown project-settings-dropdown">
+<a class="dropdown-new btn btn-default" data-toggle="dropdown" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#" id="project-settings-button">
+<i class="fa fa-cog"></i>
+<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-align-right">
+<li class=""><a title="Members" class="team-tab tab" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/project_members"><span>
+Members
+</span>
+</a></li>
+<li class="divider"></li>
+<li>
+<a data-confirm="Are you sure you want to leave the &quot;GW-Coding-Boot-Camp / 07-17-2017-GW-Arlington-Class-Repository-FSF-FT&quot; project?" title="Leave project" rel="nofollow" data-method="delete" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/project_members/leave">Leave Project
+</a></li>
+</ul>
+</div>
+</div>
+<div class="nav-control scrolling-tabs-container">
+<div class="fade-left">
+<i class="fa fa-angle-left"></i>
+</div>
+<div class="fade-right">
+<i class="fa fa-angle-right"></i>
+</div>
+<ul class="nav-links scrolling-tabs">
+<li class="home"><a title="Project" class="shortcuts-project" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT"><span>
+Project
+</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/activity"><span>
+Activity
+</span>
+</a></li><li class="active"><a title="Repository" class="shortcuts-tree" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master"><span>
+Repository
+</span>
+</a></li><li class=""><a title="Pipelines" class="shortcuts-pipelines" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Graphs" class="shortcuts-graphs" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/graphs/master"><span>
+Graphs
+</span>
+</a></li><li class=""><a title="Issues" class="shortcuts-issues" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/issues"><span>
+Issues
+<span class="badge count issue_counter">0</span>
+</span>
+</a></li><li class=""><a title="Merge Requests" class="shortcuts-merge_requests" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/merge_requests"><span>
+Merge Requests
+<span class="badge count merge_counter">0</span>
+</span>
+</a></li><li class=""><a title="Wiki" class="shortcuts-wiki" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/wikis/home"><span>
+Wiki
+</span>
+</a></li><li class=""><a title="Snippets" class="shortcuts-snippets" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/snippets"><span>
+Snippets
+</span>
+</a></li><li class="hidden">
+<a title="Network" class="shortcuts-network" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/network/master">Network
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commits/master">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="content-wrapper page-with-layout-nav">
+<div class="scrolling-tabs-container sub-nav-scroll">
+<div class="fade-left">
+<i class="fa fa-angle-left"></i>
+</div>
+<div class="fade-right">
+<i class="fa fa-angle-right"></i>
+</div>
+
+<div class="nav-links sub-nav scrolling-tabs">
+<ul class="container-fluid container-limited">
+<li class="active"><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master">Files
+</a></li><li class=""><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commits/master">Commits
+</a></li><li class=""><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/network/master">Network
+</a></li><li class=""><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/compare?from=master&amp;to=master">Compare
+</a></li><li class=""><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/branches">Branches
+</a></li><li class=""><a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tags">Tags
+</a></li></ul>
+</div>
+</div>
+
+
+
+<div class="flash-container flash-container-page">
+</div>
+
+
+<div class=" ">
+<div class="content">
+
+
+<div class="container-fluid container-limited">
+<div class="tree-controls">
+<a class="btn btn-grouped shortcuts-find-file" rel="nofollow" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/find_file/master"><i class="fa fa-search"></i>
+<span>Find File</span>
+</a>
+<span class="hidden-xs hidden-sm download-button">
+<div class="dropdown inline">
+<button class="btn" data-toggle="dropdown">
+<i class="fa fa-download"></i>
+<i class="fa fa-caret-down"></i>
+<span class="sr-only">
+Select Archive Format
+</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-align-right" role="menu">
+<li class="dropdown-header">Source code</li>
+<li>
+<a rel="nofollow" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/repository/archive.zip?ref=master"><i class="fa fa-download"></i>
+<span>Download zip</span>
+</a></li>
+<li>
+<a rel="nofollow" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/repository/archive.tar.gz?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.gz</span>
+</a></li>
+<li>
+<a rel="nofollow" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/repository/archive.tar.bz2?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.bz2</span>
+</a></li>
+<li>
+<a rel="nofollow" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/repository/archive.tar?ref=master"><i class="fa fa-download"></i>
+<span>Download tar</span>
+</a></li>
+</ul>
+</div>
+</span>
+
+</div>
+<div class="tree-holder clearfix" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="destination" id="destination" value="tree">
+<input type="hidden" name="path" id="path" value="01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css">
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/refs" data-field-name="ref" data-submit-form-on-click="true"><span class="dropdown-toggle-text ">master</span><i class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-selectable">
+<div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" value=""><i class="fa fa-search dropdown-input-search"></i><i role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master">07-17-2017-GW-Arlington-Class-Repository-FSF-FT
+</a></li>
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">..</a>
+</li>
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets">assets</a>
+</li>
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css">css</a>
+</li>
+<li>
+<span class="dropdown">
+<a class="dropdown-toggle btn add-to-tree" data-toggle="dropdown" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">
+<i class="fa fa-plus"></i>
+</a>
+<ul class="dropdown-menu">
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/new/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css"><i class="fa fa-pencil fa-fw"></i>
+New file
+</a></li>
+<li>
+<a data-target="#modal-upload-blob" data-toggle="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#modal-upload-blob"><i class="fa fa-file fa-fw"></i>
+Upload file
+</a></li>
+<li>
+<a data-target="#modal-create-new-dir" data-toggle="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#modal-create-new-dir"><i class="fa fa-folder fa-fw"></i>
+New directory
+</a></li>
+<li class="divider"></li>
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/branches/new"><i class="fa fa-code-fork fa-fw"></i>
+New branch
+</a></li>
+<li>
+<a href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tags/new"><i class="fa fa-tags fa-fw"></i>
+New tag
+</a></li>
+</ul>
+</span>
+</li>
+</ul>
+
+</div>
+<div class="tree-content-holder">
+<div class="table-holder">
+<table class="table table_190d921d165474a36f01cf644280b80017a722b9 tree-table" id="tree-slider">
+<thead>
+<tr>
+<th>Name</th>
+<th class="hidden-xs">
+<div class="pull-left">Last Commit</div>
+<div class="last-commit hidden-sm pull-left">
+&nbsp;
+<i class="fa fa-angle-right"></i>
+&nbsp;
+<small class="light">
+<a class="monospace" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commit/6597f9d2b3302754e5fd95982f7b749f78e4d0f4">6597f9d2</a>
+–
+<time class="js-timeago" datetime="2017-07-21T19:23:38Z" title="" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jul 21, 2017 3:23pm EDT">about 22 hours ago</time><script>
+//<![CDATA[
+$('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+//]]>
+</script>
+added week 2 day 1 activities
+</small>
+</div>
+<small class="commit-history-link-spacer">|</small>
+<a class="commit-history-link" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commits/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css">History</a>
+</th>
+<th class="text-right">Last Update</th>
+</tr>
+</thead>
+<tbody><tr class="tree-item">
+<td class="tree-item-file-name">
+<a class="prepend-left-10" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/">..</a>
+</td>
+<td></td>
+<td class="hidden-xs"></td>
+</tr>
+<tr class="tree-item file_a9d91140d38c660bba5f4fb31e0d7b17c2a2be3c">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="reset.css" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/blob/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css/reset.css"><span class="str-truncated">reset.css</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commit/bb4756c2445e88ac69818c9faded89978da7288b">day 5 and homework solutions, videos</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago" datetime="2017-07-21T18:50:05Z" title="Jul 21, 2017 6:50pm" data-toggle="tooltip" data-placement="top" data-container="body">about 22 hours ago</time><script>
+//<![CDATA[
+$('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+//]]>
+</script></td>
+</tr>
+
+<tr class="tree-item file_46e3381e9569c09e85a30b9e5a2af7525ee9fd78">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="style.css" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/blob/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css/style.css"><span class="str-truncated">style.css</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/commit/bb4756c2445e88ac69818c9faded89978da7288b">day 5 and homework solutions, videos</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago" datetime="2017-07-21T18:50:05Z" title="Jul 21, 2017 6:50pm" data-toggle="tooltip" data-placement="top" data-container="body">about 22 hours ago</time><script>
+//<![CDATA[
+$('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+//]]>
+</script></td>
+</tr>
+
+
+</tbody></table>
+</div>
+</div>
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">×</a>
+<h3 class="page-title">Upload New File</h3>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form form-horizontal" action="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/create/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="2QoALKQ8h0H7E1n8i1GUbZKO3CmJXXT8rGu3xewQH/oOvXT0dq4GAxrr1NnI90bZSblKLNXPhho27kcumAjyRw=="><div class="dropzone dz-clickable">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or
+<a class="markdown-selector" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="alert alert-danger data dropzone-alerts" style="display:none"></div>
+<div class="form-group commit_message-group">
+<label class="control-label" for="commit_message-9601f11cf11b4c53a7d3df11c65cf54c">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-9601f11cf11b4c53a7d3df11c65cf54c" class="form-control js-commit-message" placeholder="Upload new file" required="required" rows="3">Upload new file</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group branch">
+<label class="control-label" for="target_branch">Target branch</label>
+<div class="col-sm-10">
+<input type="text" name="target_branch" id="target_branch" value="patch-1" required="required" class="form-control js-target-branch">
+<div class="js-create-merge-request-container">
+<div class="checkbox">
+<label for="create_merge_request-dbcbeafe1adbdb6c542bbd50a0405ee2"><input type="checkbox" name="create_merge_request" id="create_merge_request-dbcbeafe1adbdb6c542bbd50a0405ee2" value="1" class="js-create-merge-request" checked="checked">
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch">
+
+<div class="form-actions">
+<button name="button" type="submit" class="btn btn-small btn-create btn-upload-file" id="submit-all">Upload file</button>
+<a class="btn btn-cancel" data-dismiss="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">Cancel</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+<script>
+  disableButtonIfEmptyField($('.js-upload-blob-form').find('.js-commit-message'), '.btn-upload-file');
+  new BlobFileDropzone($('.js-upload-blob-form'), 'post');
+  new NewCommitForm($('.js-upload-blob-form'))
+</script>
+
+<div class="modal" id="modal-create-new-dir">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">×</a>
+<h3 class="page-title">Create New Directory</h3>
+</div>
+<div class="modal-body">
+<form class="form-horizontal js-create-dir-form js-quick-submit js-requires-input" action="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/create_dir/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="4u92Sgf/k+krGxg7gvseosS/4jRVJb9qBV9NjL9pUEQ1WAKS1W0Sq8rjlR7BXcwWH4h0MQm3TYyf2r1ny3G9+Q=="><div class="form-group">
+<label class="control-label" for="dir_name">Directory name</label>
+<div class="col-sm-10">
+<input type="text" name="dir_name" id="dir_name" required="required" class="form-control">
+</div>
+</div>
+<div class="form-group commit_message-group">
+<label class="control-label" for="commit_message-5e991776b13cced3a49ff49290ba69dc">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-5e991776b13cced3a49ff49290ba69dc" class="form-control js-commit-message" placeholder="Add new directory" required="required" rows="3">Add new directory</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group branch">
+<label class="control-label" for="target_branch">Target branch</label>
+<div class="col-sm-10">
+<input type="text" name="target_branch" id="target_branch" value="patch-1" required="required" class="form-control js-target-branch">
+<div class="js-create-merge-request-container">
+<div class="checkbox">
+<label for="create_merge_request-f54d875db76af6b06ab41fe62f062d79"><input type="checkbox" name="create_merge_request" id="create_merge_request-f54d875db76af6b06ab41fe62f062d79" value="1" class="js-create-merge-request" checked="checked">
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch">
+
+<div class="form-actions">
+<input type="submit" name="commit" value="Create directory" class="btn btn-create disabled" disabled="disabled">
+<a class="btn btn-cancel" data-dismiss="modal" href="http://gw.bootcampcontent.com/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/tree/master/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css#">Cancel</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+<script>
+  new NewCommitForm($('.js-create-dir-form'))
+</script>
+
+<script>
+  // Load last commit log for each file in tree
+  $('#tree-slider').waitForImages(function() {
+    ajaxGet("/GW-Coding-Boot-Camp/07-17-2017-GW-Arlington-Class-Repository-FSF-FT/refs/master/logs_tree/01-Week/Homework/Raw-CSS-Portfolio-or-Wireframe/Solutions/recommended-homework-solution/assets/css");
+  });
+</script>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<input type="file" class="dz-hidden-input" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"><div class="device-xs visible-xs"></div><div class="device-sm visible-sm"></div><div class="device-md visible-md"></div><div class="device-lg visible-lg"></div></body></html>
